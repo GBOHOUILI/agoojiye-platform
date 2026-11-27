@@ -1,0 +1,24 @@
+# dependencies and builds
+node_modules
+.next
+.next-e2e
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# tests
+test-results
+playwright-report
+coverage
+
+# local environment and tooling
+.env*
+.DS_Store
+*.log
+.vercel
+.playwright-mcp
+.superpowers
+.claude
+
+# demo video and captures are produced outside the repository
+livrables
